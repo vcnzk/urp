@@ -97,7 +97,8 @@
                 android:layout_weight="1"
                 android:layout_marginHorizontal="5dp"
                 android:text="Default"
-                android:textSize="11sp"/>
+                android:padding="0dp"
+                android:textSize="@dimen/button_text_size"/>
 
             <Button
                 android:id="@+id/btnCancel"
@@ -106,7 +107,8 @@
                 android:layout_marginHorizontal="5dp"
                 android:layout_weight="1"
                 android:text="Отмена"
-                android:textSize="11sp"/>
+                android:padding="0dp"
+                android:textSize="@dimen/button_text_size"/>
 
             <Button
                 android:id="@+id/btnApply"
@@ -115,7 +117,8 @@
                 android:layout_weight="1"
                 android:layout_marginHorizontal="5dp"
                 android:text="Применить"
-                android:textSize="11sp"/>
+                android:padding="0dp"
+                android:textSize="@dimen/button_text_size"/>
         </LinearLayout>
 
     </LinearLayout>

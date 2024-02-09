@@ -133,6 +133,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:padding="0dp"
+                android:textSize="@dimen/button_text_size"
                 android:layout_marginHorizontal="5dp"
                 android:text="Default" />
 
@@ -141,6 +143,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="5dp"
+                android:padding="0dp"
+                android:textSize="@dimen/button_text_size"
                 android:text="Отмена" />
 
             <Button
@@ -149,6 +153,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginHorizontal="5dp"
+                android:padding="0dp"
+                android:textSize="@dimen/button_text_size"
                 android:text="Применить" />
         </LinearLayout>
 

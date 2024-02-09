@@ -23,14 +23,14 @@
             android:layout_height="wrap_content"
             android:background="#C4DBFF"
             android:padding="5dp"
-            android:text="Источник ДП"
+            android:text="@string/source_name"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
             <ListView
                 android:id="@+id/lvList"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 />
 
@@ -38,7 +38,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0"
             android:gravity="center_horizontal"
             android:orientation="horizontal"
             android:paddingVertical="5dp">
@@ -47,28 +46,31 @@
                 android:id="@+id/btnDelAllRG"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="0dp"
                 android:layout_weight="1"
                 android:layout_marginHorizontal="5dp"
-                android:text="Удалить\nвсе"
-                android:textSize="11sp"/>
+                android:text="@string/button_delete_all"
+                android:textSize="@dimen/button_text_size"/>
 
             <Button
                 android:id="@+id/btnDelOneRG"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="0dp"
                 android:layout_weight="1"
                 android:layout_marginHorizontal="5dp"
-                android:text="Удалить\nпоследний"
-                android:textSize="11sp"/>
+                android:text="@string/button_delete_last"
+                android:textSize="@dimen/button_text_size"/>
 
             <Button
                 android:id="@+id/btnAddRG"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="0dp"
                 android:layout_weight="1"
                 android:layout_marginHorizontal="5dp"
-                android:text="Добавить\nРЛ"
-                android:textSize="11sp"/>
+                android:text="@string/button_add_rg"
+                android:textSize="@dimen/button_text_size"/>
         </LinearLayout>
 
     </LinearLayout>

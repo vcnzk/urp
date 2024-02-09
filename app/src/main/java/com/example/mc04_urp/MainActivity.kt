@@ -13,6 +13,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.*
 import android.widget.*
+import androidx.viewpager.widget.ViewPager
 import kotlin.math.round
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
